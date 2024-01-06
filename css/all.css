@@ -912,10 +912,9 @@ img {
 
 .nav-branch {
     height: 100%;
-    padding-right: 30px;
-    margin-right: 16px;
-    background: var(--black2);
-    border-radius: 0 0 2.5rem 0;
+    padding-right: 15px;
+    
+    background: #fff;
 }
 
 .a-logo-box {
@@ -930,9 +929,7 @@ img {
 .nav-categories {
     padding-left: 16px;
     background: var(--black2);
-    border-radius: 0 0 0 2.5rem;
     width: calc(100% - 205px);
-    border-left: 1px solid var(--white);
 }
 
 .group-category {
@@ -1020,7 +1017,7 @@ img {
 }
 
 .fill-left {
-    background: var(--black2);
+    background: #fff;
 }
 
 .fill-right {
@@ -2035,8 +2032,6 @@ footer {
     background: var(--black2);
     margin: 20px 0;
     max-width: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 .inner-row-footer {

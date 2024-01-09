@@ -1451,7 +1451,7 @@ hr {
     -o-transition: transform 86ms cubic-bezier(.55, .085, .68, .53), box-shadow 86ms cubic-bezier(.55, .085, .68, .53);
     transition: transform 86ms cubic-bezier(.55, .085, .68, .53), box-shadow 86ms cubic-bezier(.55, .085, .68, .53);
     transition: transform 86ms cubic-bezier(.55, .085, .68, .53), box-shadow 86ms cubic-bezier(.55, .085, .68, .53), -webkit-transform 86ms cubic-bezier(.55, .085, .68, .53), -webkit-box-shadow 86ms cubic-bezier(.55, .085, .68, .53);
-    width: 100%;
+    width: 85%;
 }
 
 .card-game::before {

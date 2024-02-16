@@ -1415,8 +1415,8 @@ hr {
 }
 
 .throw-game {
-    width: 210px;
-    padding: 16px;
+    width: 170px;
+    padding: 10px 1px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -1888,7 +1888,7 @@ hr {
 }
 
 .game-info {
-    width: 60%;
+    width: 42%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 25px;
@@ -1910,7 +1910,7 @@ hr {
 }
 
 .game-categories-and-tags {
-    width: 40%;
+    width: 58%;
     padding-left: 25px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2305,7 +2305,7 @@ footer {
 
 @media (min-width:1744px) {
     .container {
-        max-width: 1680px;
+        max-width: 1740px;
     }
 
     .throw-ads-300x600 {

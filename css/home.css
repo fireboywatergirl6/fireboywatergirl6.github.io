@@ -1,0 +1,357 @@
+/* ========================================================
+   HOME.CSS - Dedicated Stylesheet for index.html
+   ======================================================== */
+
+/* ==================== SEO Chromebook Box ==================== */
+.seo-chromebook-hero {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.seo-chromebook-box {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(32, 45, 55, 0.95) 0%, rgba(42, 67, 114, 0.9) 50%, rgba(26, 38, 57, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 22px;
+    padding: 22px 30px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+
+.seo-chromebook-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #ff5722 35%, #00b0ff 65%, transparent);
+    border-radius: 3px;
+}
+
+.seo-chromebook-badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 12px;
+    margin-bottom: 12px;
+}
+
+.seo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.seo-badge:hover {
+    transform: translateY(-1px);
+}
+
+.seo-badge svg {
+    flex-shrink: 0;
+}
+
+.seo-badge-school {
+    background: rgba(255, 87, 34, 0.16);
+    color: #ff8a65;
+    border: 1px solid rgba(255, 87, 34, 0.4);
+}
+
+.seo-badge-chromebook {
+    background: rgba(0, 176, 255, 0.16);
+    color: #40c4ff;
+    border: 1px solid rgba(0, 176, 255, 0.4);
+}
+
+.seo-badge-coop {
+    background: rgba(76, 175, 80, 0.16);
+    color: #81c784;
+    border: 1px solid rgba(76, 175, 80, 0.4);
+}
+
+.seo-badge-flash {
+    background: rgba(255, 193, 7, 0.16);
+    color: #ffd54f;
+    border: 1px solid rgba(255, 193, 7, 0.4);
+}
+
+.seo-chromebook-title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.35;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.2px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.seo-chromebook-desc {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #d1dbe5;
+    margin: 0 auto;
+    max-width: 880px;
+    text-align: center;
+}
+
+.seo-chromebook-desc strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .seo-chromebook-hero {
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+
+    .seo-chromebook-box {
+        padding: 16px 14px;
+        border-radius: 16px;
+    }
+
+    .seo-chromebook-title {
+        font-size: 18px;
+        line-height: 1.35;
+    }
+
+    .seo-chromebook-desc {
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+    .seo-badge {
+        font-size: 10.5px;
+        padding: 3px 8px;
+    }
+}
+
+/* ==================== Game Info Content Frame ==================== */
+.game__content.game-info {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 30px 0 40px 0 !important;
+    padding: 28px 32px !important;
+    background: #ffffff !important;
+    border-radius: 18px !important;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(10, 148, 228, 0.1) !important;
+    border: 1px solid rgba(10, 148, 228, 0.2) !important;
+    box-sizing: border-box !important;
+    color: #2c3e50 !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.game__content.game-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ff5722 0%, #ff9800 45%, #00b0ff 100%);
+}
+
+.game__content.game-info .home-title {
+    color: #1a252f !important;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    line-height: 1.35 !important;
+    margin-bottom: 16px !important;
+}
+
+.game__content.game-info h2 {
+    color: #1a252f !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+}
+
+.game__content.game-info h3 {
+    color: #202d37 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+.game__content.game-info p {
+    line-height: 1.7 !important;
+    margin-bottom: 14px !important;
+    color: #34495e !important;
+}
+
+.game__content.game-info ul,
+.game__content.game-info ol {
+    padding-left: 24px !important;
+    margin-bottom: 18px !important;
+    line-height: 1.75 !important;
+}
+
+.game__content.game-info li {
+    margin-bottom: 6px !important;
+}
+
+/* Full width for Similar Games row on homepage */
+.game-information {
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+.game-categories-and-tags {
+    width: 100% !important;
+    padding-left: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .game__content.game-info {
+        padding: 20px 16px !important;
+        margin: 20px 0 26px 0 !important;
+        border-radius: 16px !important;
+    }
+
+    .game__content.game-info .home-title {
+        font-size: 19px !important;
+    }
+
+    .game__content.game-info h2 {
+        font-size: 17px !important;
+    }
+
+    .game__content.game-info h3 {
+        font-size: 16px !important;
+    }
+}
+
+/* ==================== 150x150 Game Cards Layout (NEW & HOT GAMES) ==================== */
+.game-relate-tag,
+#more-game .flow-game {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 16px 14px !important;
+    margin: 20px auto 32px auto !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.game-relate-tag .throw-game,
+#more-game .throw-game {
+    width: 150px !important;
+    height: 150px !important;
+    flex: 0 0 150px !important;
+    max-width: 150px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.game-relate-tag .card-game,
+#more-game .card-game {
+    width: 150px !important;
+    height: 150px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    border-radius: 14px !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16) !important;
+    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.2s ease !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+}
+
+.game-relate-tag .card-game:hover,
+#more-game .card-game:hover {
+    transform: translateY(-4px) scale(1.02) !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32), 0 0 12px rgba(255, 87, 34, 0.35) !important;
+}
+
+.game-relate-tag .image-card-game,
+#more-game .image-card-game {
+    width: 100% !important;
+    height: 105px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    display: block !important;
+}
+
+.game-relate-tag .image-card-game img,
+#more-game .image-card-game img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    transition: transform 0.25s ease !important;
+}
+
+.game-relate-tag .card-game:hover img,
+#more-game .card-game:hover img {
+    transform: scale(1.06) !important;
+}
+
+.game-relate-tag .title-card-game,
+#more-game .title-card-game {
+    height: 45px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 8px !important;
+    background: #ffffff !important;
+    box-sizing: border-box !important;
+}
+
+.game-relate-tag .title-name,
+#more-game .title-name {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #2c3e50 !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1.25 !important;
+}
+
+.game-relate-tag .text-overflow,
+#more-game .text-overflow {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    font-size: 12.5px !important;
+    line-height: 1.25 !important;
+}
+
+.game-relate-tag .card-game:hover .title-name,
+#more-game .card-game:hover .title-name {
+    color: #ffffff !important;
+}
+
+.game-relate-tag,
+#more-game .flow-game {
+    gap: 12px 10px !important;
+}

@@ -1323,14 +1323,58 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--gray) !important;
-    background-color: var(--gray) !important;
-    border: 1px dashed rgba(255, 255, 255, 0.25) !important;
+    background: #0a0f1d !important;
+    background-color: #0a0f1d !important;
+    border: 1px solid rgba(56, 189, 248, 0.25) !important;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.ads-box-728x90 a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    line-height: 0 !important;
+    text-decoration: none !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.ads-box-728x90 a:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 20px rgba(0, 229, 255, 0.3) !important;
+}
+
+.ads-box-728x90 img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 90px !important;
+    display: block !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+}
+
+.category-ads-728x90 {
+    width: 100%;
+    padding: 16px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category-ads-728x90 .container {
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .bread-crumb-ads .ads-box-728x90 ins.adsbygoogle {
@@ -1919,14 +1963,37 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--gray) !important;
-    background-color: var(--gray) !important;
-    border: 1px dashed rgba(255, 255, 255, 0.25) !important;
+    background: #0a0f1d !important;
+    border: 1px solid rgba(56, 189, 248, 0.25) !important;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.ads-box-300x600 a {
+    display: block !important;
+    width: 300px !important;
+    height: 600px !important;
+    line-height: 0 !important;
+    text-decoration: none !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.ads-box-300x600 a:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(0, 229, 255, 0.35) !important;
+}
+
+.ads-box-300x600 img {
+    width: 300px !important;
+    height: 600px !important;
+    display: block !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
 }
 
 .ads-box-300x600 ins.adsbygoogle {

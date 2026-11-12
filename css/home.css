@@ -355,3 +355,85 @@
 #more-game .flow-game {
     gap: 12px 10px !important;
 }
+
+/* ==================== Billboard 970x250 Ad Container ==================== */
+.home-billboard-ads-970x250 {
+    width: 100%;
+    margin: 22px auto 26px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.ads-box-970x250 {
+    width: 970px;
+    height: 250px;
+    min-height: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0a0f1d;
+    border: 1px solid rgba(56, 189, 248, 0.28);
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.ads-box-970x250:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 32px rgba(0, 229, 255, 0.35);
+    border-color: rgba(0, 229, 255, 0.5);
+}
+
+.ads-box-970x250 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    text-decoration: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.ads-box-970x250 img {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+@media (max-width: 1024px) {
+    .ads-box-970x250 {
+        max-width: 728px;
+        height: auto;
+        min-height: auto;
+        aspect-ratio: 970 / 250;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-billboard-ads-970x250 {
+        margin: 16px auto 20px auto;
+        padding: 0 8px;
+    }
+
+    .ads-box-970x250 {
+        max-width: 100%;
+        border-radius: 12px;
+    }
+
+    .ads-box-970x250 a,
+    .ads-box-970x250 img {
+        border-radius: 12px;
+    }
+}
